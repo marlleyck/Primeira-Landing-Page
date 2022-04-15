@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: poppins-regular;
+    src: url(fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: jost-regular;
+    src: url(fonts/Jost/static/Jost-Regular.ttf);
+}
+
+
+:root {
+    --corpo: #16161A;
+    --bege: #FEE8C7;
+    --azul: #3CA1F7;
+    --roxo: #7F5AF0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, #202025, #16161A );
+}
+
+/* ============ CSS DO HEADER ==============   */
+
+header {
+    background-color: white;
+    font-family: jost-regular;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+header nav {
+    margin-right: 30px;
+
+}
+
+header nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--corpo);
+    margin-right: 20px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+/* ============ CSS DO MAIN ==============   */
+
+
+.fundo-main {
+    width: 900px;
+    height: 400px;
+    background-image: linear-gradient(to right, #7F5AF0, #5e3bc5);
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 80px;
+    border-bottom-right-radius: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.fundo-main aside h1 {
+    font-family: poppins-regular;
+    padding: 50px;
+
+}
+
+.fundo-main aside p {
+    font-family: poppins-regular;
+    padding: 50px;
+    font-size: 20px;
+
+}
+
+.fundo-main img{
+    width: 300px;
+    padding-right: 163px;
+    transform: scaleX(-1);
+}
+
