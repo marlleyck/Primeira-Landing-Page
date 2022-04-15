@@ -107,9 +107,11 @@ header nav a:hover {
 }
 
 .sobre {
-    background-image: url('imgs/moon2.png');
-    height: 400px;
-    background-size: 400px 400px, contain;
+    background-image: url('imgs/background-weatherly.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: contain;
     font-family: poppins;
     color: white;
     display: flex;
@@ -120,7 +122,8 @@ header nav a:hover {
 
 
 .sobre aside h2 {
-    color: #582cdb;;
+    color: #582cdbd0;
+    text-shadow: 1px 1px 2px rgb(194, 181, 181);
 }
 
 .sobre aside p {
@@ -131,6 +134,8 @@ header nav a:hover {
     background: rgba(231, 227, 227, 0.25);
     backdrop-filter: blur(45px);
     border: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
     transition: .5s;
 }
 
@@ -148,7 +153,7 @@ header nav a:hover {
 
 
 .cursos span {
-    font-size: 13px; 
+    font-size: 14px; 
      
     color: #669BEA;
 }
@@ -163,10 +168,10 @@ header nav a:hover {
 
 .outros {
     box-shadow: 0.5px 0.5px 10px #77777e;
-    
     text-align: center;
     width: 200px;
     border-radius: 10px;
     padding: 10px;
 }
+
 
