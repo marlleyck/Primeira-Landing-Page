@@ -100,3 +100,45 @@ header nav a:hover {
     transform: scaleX(-1);
 }
 
+.sobre {
+    font-family: poppins;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.sobre aside h2 {
+    color: #3CA1F7;
+}
+
+.cursos {
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(45px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0.5px 0.5px 10px black;
+    text-align: center;
+    width: 200px;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+
+.cursos span {
+    font-size: 13px; 
+     
+    color: #FEE8C7;
+}
+
+.contratar {
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(45px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0.5px 0.5px 10px #101011;
+    text-align: center;
+    width: 200px;
+    border-radius: 10px;
+    padding: 10px;
+}
