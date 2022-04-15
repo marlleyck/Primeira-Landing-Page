@@ -24,7 +24,7 @@
 }
 
 body {
-    background-image: linear-gradient(to right, #202025, #16161A );
+    background-color: white;
 }
 
 /* ============ CSS DO HEADER ==============   */
@@ -53,24 +53,30 @@ header nav {
 header nav a {
     text-decoration: none;
     font-size: 20px;
-    color: var(--corpo);
+    color: rgb(22, 22, 26);
     margin-right: 20px;
 }
 
 header nav a:hover {
     text-decoration: underline;
-    font-weight: bold;
 }
 
 
 /* ============ CSS DO MAIN ==============   */
 
 
+.main-top {
+    background-image: linear-gradient(to right, #202025, #16161A );
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 0px 0px 15px 15px;
+}
+
 .fundo-main {
     width: 900px;
     height: 400px;
-    background-image: linear-gradient(to right, #7F5AF0, #5e3bc5);
-    margin-top: 20px;
+    background-image: linear-gradient(45deg, #5b95eb 8%, #7F5AF0, #5e3bc5);
     margin-right: auto;
     margin-left: auto;
     border-radius: 80px;
@@ -101,6 +107,9 @@ header nav a:hover {
 }
 
 .sobre {
+    background-image: url('imgs/moon2.png');
+    height: 400px;
+    background-size: 400px 400px, contain;
     font-family: poppins;
     color: white;
     display: flex;
@@ -111,10 +120,17 @@ header nav a:hover {
 
 
 .sobre aside h2 {
-    color: #3CA1F7;
+    color: #582cdb;;
+}
+
+.sobre aside p {
+    color: black;
 }
 
 .sobre aside {
+    background: rgba(231, 227, 227, 0.25);
+    backdrop-filter: blur(45px);
+    border: 1px solid white;
     transition: .5s;
 }
 
@@ -123,23 +139,22 @@ header nav a:hover {
 }
 
 .cursos {
-    box-shadow: 0.5px 0.5px 10px #101011;
+    box-shadow: 0.5px 0.5px 10px #77777e;
     text-align: center;
     width: 200px;
     border-radius: 10px;
     padding: 10px;
-
 }
 
 
 .cursos span {
     font-size: 13px; 
      
-    color: #FEE8C7;
+    color: #669BEA;
 }
 
 .contratar {
-    box-shadow: 0.5px 0.5px 10px #101011;
+    box-shadow: 0.5px 0.5px 10px #77777e;
     text-align: center;
     width: 200px;
     border-radius: 10px;
@@ -147,10 +162,11 @@ header nav a:hover {
 }
 
 .outros {
+    box-shadow: 0.5px 0.5px 10px #77777e;
     
-    box-shadow: 0.5px 0.5px 10px #101011;
     text-align: center;
     width: 200px;
     border-radius: 10px;
     padding: 10px;
 }
+
