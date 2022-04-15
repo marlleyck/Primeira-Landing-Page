@@ -66,7 +66,11 @@ header nav a:hover {
 
 
 .main-top {
-    background-image: linear-gradient(to right, #202025, #16161A );
+    /* background-image: linear-gradient(to right, #202025, #16161A ); */
+    background-image: url(imgs/background-main.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
     padding: 20px;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -107,9 +111,9 @@ header nav a:hover {
 }
 
 .sobre {
-    background-image: url('imgs/background-weatherly.png');
+    background-image: url(imgs/background-weatherly.png);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: bottom center;
     background-attachment: fixed;
     background-size: contain;
     font-family: poppins;
@@ -132,7 +136,7 @@ header nav a:hover {
 
 .sobre aside {
     background: rgba(231, 227, 227, 0.25);
-    backdrop-filter: blur(45px);
+    backdrop-filter: blur(15px);
     border: 1px solid white;
     margin-left: auto;
     margin-right: auto;
@@ -155,7 +159,7 @@ header nav a:hover {
 .cursos span {
     font-size: 14px; 
      
-    color: #669BEA;
+    color: #478bf1;
 }
 
 .contratar {
@@ -175,3 +179,30 @@ header nav a:hover {
 }
 
 
+/* ================= CSS DO FOOTER ================= */
+
+footer {
+    background-image: linear-gradient(to right, #202025, #16161A );
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    color: white;
+    font-size: 13px;
+    font-family: jost-regular;
+}
+
+footer img {
+    width: 20px;
+}
+
+#linkedin {
+    margin-left: 10px;
+}
+
+#insta {
+    margin-left: 5px;
+}
